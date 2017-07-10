@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Pinyon+Script');
+
+body {
+    background-color: #eaf066;
+}
+
+h1 {
+    font-family: 'Pinyon Script', cursive;
+    text-align: center;
+    font-size:40px;
+}
+
+.piano {
+    margin: 80px auto;
+    width: 1000px;
+    height: 300px;
+    background-color: brown;
+    border: 1px solid brown;
+    position: relative;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+
+.white {
+    background-color: white;
+}
+
+.white:hover {
+    box-shadow: 4px 4px 20px #888888;
+}
+
+.black {
+    z-index: 1000;
+}
+
+.black:hover {
+    box-shadow: 5px 5px 20px #888888;
+}
+
+#c {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    width: 100px;
+    height: 250px;
+    border: 1px solid black;
+}
+
+#cis {
+    width: 60px;
+    height: 200px;
+    background-color: black;
+    position: absolute;
+    top: 50px;
+    left: 170px;
+}
+
+#d {
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    width: 100px;
+    height: 250px;
+    border: 1px solid black;
+}
+
+#dis {
+    width: 60px;
+    height: 200px;
+    background-color: black;
+    position: absolute;
+    top: 50px;
+    left: 270px;
+}
+
+#e {
+    position: absolute;
+    top: 50px;
+    left: 300px;
+    width: 100px;
+    height: 250px;
+    border: 1px solid black;
+}
+
+#f {
+    position: absolute;
+    top: 50px;
+    left: 400px;
+    width: 100px;
+    height: 250px;
+    border: 1px solid black;
+}
+
+#fis {
+    width: 60px;
+    height: 200px;
+    background-color: black;
+    position: absolute;
+    top: 50px;
+    left: 470px;
+}
+
+#g {
+    position: absolute;
+    top: 50px;
+    left: 500px;
+    width: 100px;
+    height: 250px;
+    border: 1px solid black;
+}
+
+#gis {
+    width: 60px;
+    height: 200px;
+    background-color: black;
+    position: absolute;
+    top: 50px;
+    left: 570px;
+}
+
+#a {
+    position: absolute;
+    top: 50px;
+    left: 600px;
+    width: 100px;
+    height: 250px;
+    border: 1px solid black;
+}
+
+#ais {
+    width: 60px;
+    height: 200px;
+    background-color: black;
+    position: absolute;
+    top: 50px;
+    left: 670px;
+}
+
+#h {
+    position: absolute;
+    top: 50px;
+    left: 700px;
+    width: 100px;
+    height: 250px;
+    border: 1px solid black;
+}
+
+#c2 {
+    position: absolute;
+    top: 50px;
+    left: 800px;
+    width: 100px;
+    height: 250px;
+    border: 1px solid black;
+}
+
+#his {
+    width: 50px;
+    height: 200px;
+    background-color: black;
+    position: absolute;
+    top: 50px;
+    left: 850px;
+}

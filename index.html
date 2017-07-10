@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>Piano in Javascript</title>
+    <meta name="viewport" width="device-width, maximum-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+    <h1>JavaScript Piano By B.G</h1>
+    <div class="piano">
+        <div id="c" data-key="65" class="white"></div>
+            <div id="cis" class="black"></div>
+        <div id="d" class="white"></div>
+            <div id="dis" class="black"></div>
+        <div id="e" class="white"></div>
+        <div id="f" class="white"></div>
+            <div id="fis" class="black"></div>
+        <div id="g" class="white"></div>
+            <div id="gis" class="black"></div>
+        <div id="a" class="white"></div>
+            <div id="ais" class="black"></div>
+        <div id="h" class="white"></div>
+            <div id="his" class="black"></div>
+        <div id="c2" data-key="70" class="white"></div>
+    </div>
+    <audio data-key="65" src="sounds/c1.mp3"></audio>
+    <audio data-key="87" src="sounds/c1s.mp3"></audio>
+    <audio data-key="83" src="sounds/d1.mp3"></audio>
+    <audio data-key="82" src="sounds/d1s.mp3"></audio>
+    <audio data-key="68" src="sounds/e1.mp3"></audio>
+    <audio data-key="70" src="sounds/f1.mp3"></audio>
+    <audio data-key="68" src="sounds/f1s.mp3"></audio>
+    <audio data-key="71" src="sounds/g1.mp3"></audio>
+    <audio data-key="34" src="sounds/g1s.mp3"></audio>
+    <audio data-key="72" src="sounds/a1.mp3"></audio>
+    <audio data-key="55" src="sounds/a1s.mp3"></audio>
+    <audio data-key="74" src="sounds/b1.mp3"></audio>
+    <audio data-key="75" src="sounds/c2.mp3"></audio>
+    <audio data-key="73" src="sounds/c1s.mp3"></audio>
+<script>
+    document.addEventListener('keydown', function(e){
+       const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+                                         
+        if(!audio) return; //stop function!
+        audio.currentTime = 3;
+        audio.play();
+            
+    });
+</script>
+</body>
+</html>
